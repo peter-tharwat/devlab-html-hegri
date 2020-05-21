@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/pretty-checkbox.min.css">
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+     <title>تحويل الي ميلادي</title>
+</head>
+
+<body class="light">
+     <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100">
+                         <li class="nav-item active">
+                              <a class="nav-link" href="هجري الرئيسيه.html">الرئيسية <span class="sr-only">(current)</span></a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="تحويل الي ميلادي.html">تحويل التاريخ</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="تقويم هجري.html">التقاويم</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="اسماء الهجري.html">اسماء وترتيب الأشهُر</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="رمضان ميلادي.html">شهرُ رمضان</a>
+                         </li>
+                         <li class="nav-item mr-auto">
+                              <a class="nav-link" href="#">
+                                   <div class="pretty p-switch p-fill">
+                                        <input type="checkbox" />
+                                        <div class="state">
+                                             <label class="mx-2">اللوضع اليلي</label>
+                                        </div>
+                                   </div>
+     
+                              </a>
+                         </li>
+                     
+                    </ul>
+               </div>
+          </nav>
+          <div class="container position-relative">
+               <div class="img-container text-center h-img meladi-img">
+                    <img src="img/التاريخ اليوم.svg"  alt="" srcset="">
+               </div>
+               <div class="big-date top-meladi">
+                    تاريخ اليوم الميلادي : 11 <span>مارس</span> 2010م
+               </div>
+               <div class="today">
+                    الصيغة الرقمية لتاريخ اليوم: <span>11-1-2020م</span>
+               </div>
+               <div class="day-in-week">
+                    اليوم <span>الاريعاء</span>
+               </div>
+               <div class="now-time mx-auto">
+                    <span>2</span><span>: 45</span> <span>: 03</span> <span>م</span> بتوقيت الامارات
+               </div>
+          </div>
+      
+     </header>  
+     <section class="convert">
+          <div class="container">
+            <h3 class="text-center color-two month-catgry pb-4 "> تحويل التاريخ إالى هجري وميلادي وشمسي    </h6>
+          <div class="row mx-auto head-inp my-4">
+            <div class="col-3 mb-3 px-2 d-flex justify-content-center align-items-center  color-label">الميلادي : </div>
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="box-inp border-10 w-100 inp">
+            </div>
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="box-inp border-10 w-100 inp">
+  
+            </div>
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="box-inp border-10 w-100 inp">
+  
+            </div>
+       </div>
+       <div class="row mx-auto head-inp my-3">
+            <div class="col-3 mb-3 px-2 d-flex justify-content-center align-items-center  color-label">الهجري : </div>
+         
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="bottom-inp border-10 w-100 inp">
+  
+            </div>
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="bottom-inp border-10 w-100 inp">
+  
+            </div>
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="bottom-inp border-10 w-100 inp">
+  
+            </div>
+       </div>
+       <div class="row mx-auto head-inp my-3">
+            <div class="col-3 mb-3 px-2 d-flex justify-content-center align-items-center  color-label">الشمسي :</div>
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="bottom-inp border-10 w-100 inp">
+  
+            </div>
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="bottom-inp border-10 w-100 inp">
+  
+            </div>
+            <div class="col-3 mb-3 px-2">
+                 <input type="text" class="bottom-inp border-10 w-100 inp">
+  
+            </div>
+       </div>
+       <div class="row mx-auto my-3">
+            <div class="col-4  px-2 d-flex  align-items-center color-label">موافق اليوم 
+            :
+            </div>
+            <div class="col-6 mb-3 px-2 ml-auto">
+                 <input type="text" class="bottom-inp border-10 w-100 inp">
+            </div>
+        
+       </div>
+       <div class="text-center my-4 btn-convert">
+            <button class=" px-3 py-2 border-5">التحويل</button>
+            <button class="mr-4 px-3 py-2 border-5" id="reset-inp">تفريغ الخانات</button>
+       </div>
+            </div>
+     </section>
+       <section class="sec-2 sec-convert-2">
+            <div class="container py-5">
+                 <ul>
+                      <li>التاريخ الميلادي: </li>
+                      <li>التاريخ الميلادي الرقمي :  </li>
+                      <li>التاريخ الهجري: </li>
+                      <li>التاريخ الهجري الرقمي :  </li>
+                      <li>التاريخ الشمسي: </li>
+                      <li>التاريخ الشمسي الرقمي :  </li>
+                 </ul>
+               
+  
+            </div>
+       </section>
+       <i class="fas fa-bars" id="bar"></i>
+       <div id="side-nav">
+          <i class="fas fa-times" id="close-side"></i>
+          <ul class=" ">
+               <li class=" active">
+                    <a class="nav-link" href="هجري الرئيسيه.html">الرئيسية <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="تحويل الي ميلادي.html">تحويل التاريخ</a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="تقويم هجري.html">التقاويم</a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="اسماء الهجري.html">اسماء وترتيب الأشهُر</a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="رمضان هجري.html">شهرُ رمضان</a>
+               </li>
+               <li class="nav-item ">
+                         <div class="pretty p-switch p-fill">
+                              <input type="checkbox" />
+                              <div class="state">
+                                   <label class="">اللوضع اليلي</label>
+                              </div>
+                         </div>
+       
+               </li>
+            
+          </ul>
+       </div>
+
+       <div id="splash-screen" class="splash-screen">
+          <div class="loader"></div>
+      </div>
+  
+
+     <script src="js/jquery-3-4-1-min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/main.js"></script>
+</body>
+
+</html>
